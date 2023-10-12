@@ -15,7 +15,7 @@ function App({ config }: AppProps) {
       <h1>{lang['app.logo']}</h1>
       <h2>{lang['app.welcome']}</h2>
       <div className="usCopyright">
-        <p><a target="_blank" href="https://github.com/gliese581c">{config.usCopyright} GitHub</a></p>
+        <p><a target="_blank" href="https://github.com/gliesereumlab">{config.usCopyright} GitHub</a></p>
       </div>
     </div>
   );
