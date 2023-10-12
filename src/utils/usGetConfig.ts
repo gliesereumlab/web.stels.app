@@ -17,7 +17,7 @@ import { TypeConfig, TypeFetchError } from "../types";
 
 export default async function usGetConfig(): Promise<TypeConfig> {
   try {
-    const response = await fetch(process.env.REACT_APP_CONFIG!);
+    const response = await fetch("/config.json");
     
     if (!response.ok) {
       /** @type {TypeFetchError} */
