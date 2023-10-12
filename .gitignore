@@ -1,0 +1,17 @@
+.idea
+
+.env
+
+*.log*
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+*.iml
+.vscode
+*.swp
+*.swo
+
+build
+node_modules
+
+.DS_Store

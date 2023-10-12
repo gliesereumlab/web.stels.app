@@ -1,0 +1,58 @@
+{
+  "usName": "STELS - WEB 3.0",
+  "usDescription": "STELS - WEB 3.0 The Future of Market is Here! \uD83C\uDF1F",
+  "usType": "WEB 3.0",
+  "usActive": true,
+  "usVersion": "0.0.1",
+  "usDomain": "//stels.app",
+  "usGit": {
+    "usUrl": "https://github.com/chabanov/web.stels.app.git"
+  },
+  "usLanguage": {
+    "usDefault": "en",
+    "usPacks": [
+      {
+        "usName": "English",
+        "usKey": "en",
+        "usLocale": "en-US",
+        "usPhrases": [
+          {
+            "usKey": "app.logo",
+            "usValue": "STELS"
+          },
+          {
+            "usKey": "app.welcome",
+            "usValue": "WEB 3.0 The Future of Market is Here! \uD83C\uDF1F"
+          },
+          {
+            "usKey": "app.title",
+            "usValue": "WEB 3.0 Title"
+          }
+        ]
+      }
+    ]
+  },
+  "usUrls": {
+    "usVersion": "v1",
+    "usServers": {
+      "usSignal": "wss://signal.gliesereum.com/",
+      "usApi": "//api.stels.app",
+      "usAccount": "//wallet.stels.app"
+    }
+  },
+  "usDataStorage": {
+    "usType": "localStorage",
+    "usBrowserWindow": "CONFIG",
+    "usKeys": {
+      "usAppConfig": "@usAppConfigKey:",
+      "usAppLanguage": "@usAppLanguage:",
+      "usAppTheme": "@usAppTheme:"
+    }
+  },
+  "usAuthor": {
+    "usFullName": "Pavlo Chabanov",
+    "usEmail": "pavlo@huragan.info",
+    "usPhone": "+380991234567"
+  },
+  "usCopyright": "Gliesereum Labs"
+}
