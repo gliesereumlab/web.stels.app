@@ -1,3 +1,5 @@
+<img width="100%" src="https://raw.githubusercontent.com/gliesereumlab/web.stels.app/main/src/assets/svg/gem.svg">
+
 # 🌟 STELS - WEB 3.0 The Future of Market is Here! 🌟
 
 Welcome to **STELS - WEB 3.0 DEX/CEX Market Platform**, where the future of automated cryptocurrency trading is redefined. Built atop the revolutionary **Gliesereum** blockchain, STELS ensures you don't just trade but trade smart, with unparalleled security.
