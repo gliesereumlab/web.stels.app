@@ -76,6 +76,6 @@ const configSlice = createSlice({
   }
 });
 
-export const { reset, set, update } = configSlice.actions;
+export const {reset, set, update} = configSlice.actions;
 
 export default configSlice.reducer;

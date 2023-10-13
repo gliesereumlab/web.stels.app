@@ -46,7 +46,7 @@ import {set} from "./app/configSlice";
     store.dispatch(set(config));
     root.render(
       <Provider store={store}>
-        <App config={config}/>
+        <App/>
       </Provider>
     );
   } catch (e) {

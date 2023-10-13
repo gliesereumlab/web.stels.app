@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { useMemo } from "react";
 import { bindActionCreators, Dispatch } from "@reduxjs/toolkit";
+import {reset, set, update} from "../app/configSlice"
 
 /**
  * An object containing Redux action creators.
@@ -8,8 +9,10 @@ import { bindActionCreators, Dispatch } from "@reduxjs/toolkit";
  * Currently, this object is empty, but action creators can be added here.
  */
 const actions = {
-
+   reset, set, update
 }
+
+console.log(actions)
 
 /**
  * Type definition for the actions bound to the dispatch function.
